@@ -9,4 +9,4 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/cheese10yun/msa-study-sample"
+          uri: "https://github.com/youngma/kt-config-server"
