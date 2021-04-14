@@ -1,2 +1,17 @@
 application:
   message: "Message From dev Local Git Repository"
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/winspec
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    database: mysql
+    show-sql: true
+
+jwt-security:
+  secret: PseudoSecret-Pseudosecret-Please-Use-Ur-Own-Key-PseudoSecret-Pseudosecret
+  expiration-time: 365
